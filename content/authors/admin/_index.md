@@ -10,24 +10,21 @@ interests:
 social:
   - display:
       header: false
-    icon_pack: far
+    icon_pack: fas
     link: https://github.com/zjg540066169
     icon: github
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Columbia University's Mailman School of Public Health
+    url: https://www.publichealth.columbia.edu/
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
-email: ""
+    - course: MS in Biostatistics
+      institution: Columbia University
+      year: 2022
+    - course: BE in Software Engineering
+      institution: Xiamen University
+      year: 2019
+email: jungang.zou@gmail.com
 superuser: true
 highlight_name: true
 ---
