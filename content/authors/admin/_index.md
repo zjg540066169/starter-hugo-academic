@@ -19,11 +19,11 @@ organizations:
 education:
   courses:
     - course: MS in Biostatistics
-      institution: Columbia University
-      year: 2022
+      institution: Columbia University, 2019 - 2022
+      year: ""
     - course: BE in Software Engineering
-      institution: Xiamen University
-      year: 2019
+      institution: Xiamen University, 2015 - 2019
+      year: ""
 email: jungang.zou@gmail.com
 superuser: true
 highlight_name: true
