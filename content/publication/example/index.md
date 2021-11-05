@@ -1,79 +1,59 @@
 ---
-title: "An example conference paper"
-
-# Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
-# and it will be replaced with their full name and linked to their profile.
+abstract: n the absence of a randomized experiment, a key assumption for drawing
+  causal inference about treatment effects is the ignorable treatment
+  assignment. Violations of the ignorability assumption may lead to biased
+  treatment effect estimates. Sensitivity analysis helps gauge how causal
+  conclusions will be altered in response to the potential magnitude of
+  departure from the ignorability assumption. However, sensitivity analysis
+  approaches for unmeasured confounding in the context of multiple treatments
+  and binary outcomes are scarce. We propose a flexible Monte Carlo sensitivity
+  analysis approach for causal inference in such settings. We first derive the
+  general form of the bias introduced by unmeasured confounding, with emphasis
+  on theoretical properties uniquely relevant to multiple treatments. We then
+  propose methods to encode the impact of unmeasured confounding on potential
+  outcomes and adjust the estimates of causal effects in which the presumed
+  unmeasured confounding is removed. Our proposed methods embed nested multiple
+  imputation within the Bayesian framework, which allow for seamless integration
+  of the uncertainty about the values of the sensitivity parameters and the
+  sampling variability, as well as use of the Bayesian Additive Regression Trees
+  for modeling flexibility. Expansive simulations validate our methods and gain
+  insight into sensitivity analysis with multiple treatments. We use the
+  SEER-Medicare data to demonstrate sensitivity analysis using three treatments
+  for early stage non-small cell lung cancer. The methods developed in this work
+  are readily available in the R package SAMTx.
+slides: ""
+url_pdf: ""
+publication_types:
+  - "2"
 authors:
-- admin
-- Robert Ford
-
-# Author notes (optional)
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-
-date: "2013-07-01T00:00:00Z"
+  - Liangyuan Hu
+  - Jungang Zou
+  - Chenyang Gu
+  - Jiayi Ji
+  - Michael Lopez
+  - Minal Kale
+author_notes: []
+publication: In *The Annals of Applied Statistics*
+summary: ""
+url_dataset: ""
+url_project: ""
+publication_short: In *AOAS*
+url_source: ""
+url_video: ""
+title: An example conference paper
 doi: ""
-
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
-
-# Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ["1"]
-
-# Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
-tags: []
-
-# Display this page in the Featured widget?
 featured: true
-
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+tags: []
+projects: []
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
   focal_point: ""
   preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-- example
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+date: 2013-07-01T00:00:00Z
+url_slides: ""
+publishDate: 2017-01-01T00:00:00Z
+url_poster: ""
+url_code: ""
 ---
 
 {{% callout note %}}
