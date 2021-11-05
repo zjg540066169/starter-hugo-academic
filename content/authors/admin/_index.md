@@ -10,9 +10,9 @@ interests:
 social:
   - display:
       header: false
-    icon_pack: ai
+    icon_pack: far
     link: https://github.com/zjg540066169
-    icon: Github
+    icon: github
 organizations:
   - name: Stanford University
     url: https://www.stanford.edu/
